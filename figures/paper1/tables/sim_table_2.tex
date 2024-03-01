@@ -1,0 +1,107 @@
+\begin{table}[H]
+\scriptsize
+\centering
+\begin{tabular}{|>{}Sc|Sc|Sc|Sc|Sc|Sc|c|c|>{}c|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Setting}} & \multicolumn{3}{c|}{\textbf{IPW Models}} & \multicolumn{2}{c|}{\textbf{Mean} $\bm{ \hat \psi}_{PP}$} & \multicolumn{2}{Sc|}{\textbf{Median} $\bm{ \hat{ \psi}_{PP}}$} \\
+\cline{1-2} \cline{3-5} \cline{6-7} \cline{8-9}
+\textbf{Missingness} & $\bm\psi_{PP}$ & \textbf{Statification} & $\bm W_{mk}^{R}$ & $\bm W_{mkt}^{N}$ & \textbf{Bias} & \textbf{\% Bias} & \textbf{Bias} & \textbf{\% Bias}\\
+\hline
+ &  &  &  & --- & -0.602 & 185.3 & -0.601 & 185.0\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash ---} & $N \sim \bm{L}^{A}$ & -0.601 & 185.0 & -0.600 & 184.4\\
+\cline{4-9}
+ &  &  &  & --- & -0.605 & 186.0 & -0.604 & 185.8\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RA}$} & $N \sim \bm{L}^{A}$ & -0.612 & 188.3 & -0.611 & 188.0\\
+\cline{4-9}
+ &  &  &  & --- & -0.571 & 175.6 & -0.569 & 175.1\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RY}$} & $N \sim \bm{L}^{A}$ & -0.570 & 175.3 & -0.567 & 174.4\\
+\cline{4-9}
+ &  &  &  & --- & -0.568 & 174.8 & -0.567 & 174.5\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R}$} & $N \sim \bm{L}^{A}$ & -0.577 & 177.4 & -0.575 & 176.7\\
+\cline{4-9}
+ &  &  &  & --- & -0.568 & 174.8 & -0.567 & 174.4\\
+\cline{5-9}
+ &  & \multirow{-10}{*}{\centering\arraybackslash Unstratified} & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R} + A$} & $N \sim \bm{L}^{A}$ & -0.577 & 177.4 & -0.575 & 176.7\\
+\cline{3-9}
+ &  &  &  & --- & -0.602 & 185.3 & -0.603 & 185.3\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RA} $} & $N \sim \bm{L}^{A}$ & -0.610 & 187.7 & -0.609 & 187.4\\
+\cline{4-9}
+ &  &  &  & --- & -0.006 & 1.8 & -0.005 & 1.6\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RY} $} & $N \sim \bm{L}^{A}$ & -0.005 & 1.5 & -0.004 & 1.2\\
+\cline{4-9}
+ &  &  &  & --- & 0.001 & -0.2 & 0.002 & -0.7\\
+\cline{5-9}
+\multirow{-16}{*}{\centering\arraybackslash M-Bias} & \multirow{-16}{*}{\centering\arraybackslash -0.325} & \multirow{-6}{*}{\centering\arraybackslash Stratified by $A$} & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R} $} & $N \sim \bm{L}^{A}$ & -0.008 & 2.4 & -0.007 & 2.1\\
+\cline{1-9}
+ &  &  &  & --- & -0.108 & 35.3 & -0.108 & 35.2\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash ---} & $N \sim \bm{L}^{A}$ & -0.108 & 35.3 & -0.108 & 35.3\\
+\cline{4-9}
+ &  &  &  & --- & -0.108 & 35.4 & -0.110 & 36.0\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RA}$} & $N \sim \bm{L}^{A}$ & -0.109 & 35.4 & -0.110 & 35.9\\
+\cline{4-9}
+ &  &  &  & --- & -0.141 & 45.8 & -0.141 & 46.0\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RY}$} & $N \sim \bm{L}^{A}$ & -0.140 & 45.8 & -0.143 & 46.5\\
+\cline{4-9}
+ &  &  &  & --- & -0.140 & 45.6 & -0.139 & 45.4\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R}$} & $N \sim \bm{L}^{A}$ & -0.140 & 45.8 & -0.141 & 45.9\\
+\cline{4-9}
+ &  &  &  & --- & -0.140 & 45.6 & -0.139 & 45.4\\
+\cline{5-9}
+ &  & \multirow{-10}{*}{\centering\arraybackslash Unstratified} & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R} + A$} & $N \sim \bm{L}^{A}$ & -0.140 & 45.8 & -0.141 & 46.0\\
+\cline{3-9}
+ &  &  &  & --- & -0.108 & 35.4 & -0.108 & 35.4\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RA} $} & $N \sim \bm{L}^{A}$ & -0.109 & 35.5 & -0.108 & 35.2\\
+\cline{4-9}
+ &  &  &  & --- & 0.000 & 0.0 & -0.002 & 0.7\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RY} $} & $N \sim \bm{L}^{A}$ & 0.000 & 0.0 & -0.001 & 0.4\\
+\cline{4-9}
+ &  &  &  & --- & 0.001 & -0.2 & -0.001 & 0.2\\
+\cline{5-9}
+\multirow{-16}{*}{\centering\arraybackslash \shortstack{Treatment\\Effect\\Heterogeneity}} & \multirow{-16}{*}{\centering\arraybackslash -0.307} & \multirow{-6}{*}{\centering\arraybackslash Stratified by $A$} & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R} $} & $N \sim \bm{L}^{A}$ & 0.000 & 0.0 & -0.001 & 0.3\\
+\cline{1-9}
+ &  &  &  & --- & -0.018 & 2.3 & -0.018 & 2.2\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash ---} & $N \sim \bm{L}^{A}$ & -0.016 & 2.0 & -0.017 & 2.0\\
+\cline{4-9}
+ &  &  &  & --- & -0.020 & 2.5 & -0.019 & 2.4\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RA}$} & $N \sim \bm{L}^{A}$ & -0.018 & 2.3 & -0.018 & 2.2\\
+\cline{4-9}
+ &  &  &  & --- & -0.075 & 9.2 & -0.074 & 9.1\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RY}$} & $N \sim \bm{L}^{A}$ & -0.073 & 9.0 & -0.072 & 8.9\\
+\cline{4-9}
+ &  &  &  & --- & -0.078 & 9.6 & -0.078 & 9.6\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R}$} & $N \sim \bm{L}^{A}$ & -0.076 & 9.4 & -0.076 & 9.4\\
+\cline{4-9}
+ &  &  &  & --- & -0.078 & 9.6 & -0.078 & 9.6\\
+\cline{5-9}
+ &  & \multirow{-10}{*}{\centering\arraybackslash Unstratified} & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R} + A$} & $N \sim \bm{L}^{A}$ & -0.076 & 9.4 & -0.076 & 9.4\\
+\cline{3-9}
+ &  &  &  & --- & -0.022 & 2.8 & -0.020 & 2.5\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RA} $} & $N \sim \bm{L}^{A}$ & -0.020 & 2.5 & -0.019 & 2.3\\
+\cline{4-9}
+ &  &  &  & --- & 0.001 & -0.2 & 0.003 & -0.4\\
+\cline{5-9}
+ &  &  & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{RY} $} & $N \sim \bm{L}^{A}$ & 0.003 & -0.4 & 0.005 & -0.6\\
+\cline{4-9}
+ &  &  &  & --- & -0.002 & 0.2 & -0.001 & 0.1\\
+\cline{5-9}
+\multirow{-16}{*}{\centering\arraybackslash \shortstack{M-Bias\\w/ Mediator}} & \multirow{-16}{*}{\centering\arraybackslash -0.811} & \multirow{-6}{*}{\centering\arraybackslash Stratified by $A$} & \multirow{-2}{*}{\centering\arraybackslash $R \sim \bm{L}^{R} $} & $N \sim \bm{L}^{A}$ & 0.000 & 0.0 & 0.002 & -0.2\\
+\hline
+\end{tabular}\caption{Simulation results from hypothetical study \#2. Eligibility criteria: BMI $\geq$ 35 m/kg$^2$, no previous initiation of bariatric surgery.}\label{table:results_2}
+\end{table}

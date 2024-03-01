@@ -1,0 +1,107 @@
+\begin{table}[H]
+\tiny
+\centering
+\begin{tabular}{|>{}Sc|Sc|Sc|c|c|>{}c|}
+\hline
+\multicolumn{3}{|Sc|}{\textbf{Model Information}} & \multicolumn{3}{Sc|}{\textbf{Missingness Mechanism}} \\
+\cline{1-3} \cline{4-6}
+\textbf{Component Model} & \textbf{Coefficient} & \textbf{Variable} & \textbf{Fig. \ref{fig:missing_DAGs_A}} & \textbf{Fig. \ref{fig:missing_DAGs_B}} & \textbf{Fig. \ref{fig:missing_DAGs_C}}\\
+\hline
+ &  & \texttt{(Intercept)} & $-5 \times 10^{-4}$ & $-5 \times 10^{-4}$ & $-5 \times 10^{-4}$\\
+\cline{3-6}
+ &  & \texttt{gender} & 0 & 0 & $-1 \times 10^{-4}$\\
+\cline{3-6}
+ &  & \texttt{race} & 0 & 0 & $-2 \times 10^{-4}$\\
+\cline{3-6}
+ & \multirow{-4}{*}{\centering\arraybackslash $\bm \beta_1$} & \texttt{insulin} & 0 & 0 & $5 \times 10^{-4}$\\
+\cline{2-6}
+ &  & \texttt{(Intercept)} & 0 & 0 & 0\\
+\cline{3-6}
+ & \multirow{-2}{*}{\centering\arraybackslash $\bm \beta_2$} & \texttt{insulin} & 0 & 0 & $1 \times 10^{-5}$\\
+\cline{2-6}
+ &  & \texttt{(Intercept)} & -1.10 & -1.10 & -1.10\\
+\cline{3-6}
+ & \multirow{-2}{*}{\centering\arraybackslash $\bm \delta$} & \texttt{insulin} & 0 & 0 & 0.50\\
+\cline{2-6}
+ & $\sigma^2_{\text{BMI}}$ & \texttt{---} & $3.2 \times 10^{-3}$ & $3.2 \times 10^{-3}$ & $3.2 \times 10^{-3}$\\
+\cline{2-6}
+ & $\tau^2_1$ & \texttt{---} & $5 \times 10^{-4}$ & $5 \times 10^{-4}$ & $5 \times 10^{-4}$\\
+\cline{2-6}
+\multirow{-11}{*}{\centering\arraybackslash Pre-Surgery BMI} & $\tau^2_2$ & \texttt{---} & $2 \times 10^{-5}$ & $2 \times 10^{-5}$ & $2 \times 10^{-5}$\\
+\cline{1-6}
+ &  & \texttt{(Intercept)} & 0 & 0 & 0\\
+\cline{3-6}
+ & \multirow{-2}{*}{\centering\arraybackslash $\bm \beta_3$} & \texttt{insulin} & 0 & 0 & $-1 \times 10^{-3}$\\
+\cline{2-6}
+ & $\sigma^2_{\text{A1c}}$ & \texttt{I(hgba1c\string^2)} & $1 \times 10^{-3}$ & $1 \times 10^{-3}$ & $1 \times 10^{-3}$\\
+\cline{2-6}
+\multirow{-4}{*}{\centering\arraybackslash Pre-Surgery A1c} & $\tau^3_2$ & \texttt{---} & $3 \times 10^{-4}$ & $3 \times 10^{-4}$ & $3 \times 10^{-4}$\\
+\cline{1-6}
+ &  & \texttt{(Intercept)} & -3.18 & -3.18 & -3.18\\
+\cline{3-6}
+ &  & \texttt{smoking\_status[current]} & -2.00 & -2.00 & -2.00\\
+\cline{3-6}
+ & \multirow{-3}{*}{\centering\arraybackslash $\bm\alpha$} & \texttt{smoking\_status[former]} & -0.75 & -0.75 & -0.75\\
+\cline{2-6}
+ &  & \texttt{(Intercept)} & 0.41 & 0.41 & 0.41\\
+\cline{3-6}
+\multirow{-5}{*}{\centering\arraybackslash Treatment} & \multirow{-2}{*}{\centering\arraybackslash $\bm\pi$} & \texttt{site} & 0.69 & 0.69 & 0.69\\
+\cline{1-6}
+ & $\lambda_{01}$ & \texttt{(Intercept)} & -2.94 & -2.94 & -2.94\\
+\cline{2-6}
+ & $\lambda_{02}$ & \texttt{(Intercept)} & -1.10 & -1.10 & -1.10\\
+\cline{2-6}
+ & $\lambda_{03}$ & \texttt{(Intercept)} & 1.10 & 1.10 & 1.10\\
+\cline{2-6}
+ & $\lambda_{04}$ & \texttt{(Intercept)} & 2.94 & 2.94 & 2.94\\
+\cline{2-6}
+ &  & \texttt{elix\_score} & 0 & 0 & -5.00\\
+\cline{3-6}
+ &  & \texttt{bs\_type[rygb]} & 0 & 0 & 4.00\\
+\cline{3-6}
+ & \multirow{-3}{*}{\centering\arraybackslash $\bm\lambda_1$} & \texttt{insulin} & 0 & 0 & -3.00\\
+\cline{2-6}
+\multirow{-8}{*}{\centering\arraybackslash Post-Surgery BMI} & $\tau^2_4$ & \texttt{---} & $2.5 \times 10^{-2}$ & $2.5 \times 10^{-2}$ & $2.5 \times 10^{-2}$\\
+\cline{1-6}
+ & $\phi_{01}$ & \texttt{(Intercept)} & -2.94 & -2.94 & -1.39\\
+\cline{2-6}
+ & $\phi_{02}$ & \texttt{(Intercept)} & -1.10 & -1.10 & -0.20\\
+\cline{2-6}
+ & $\phi_{03}$ & \texttt{(Intercept)} & 1.10 & 1.10 & 1.73\\
+\cline{2-6}
+ & $\phi_{04}$ & \texttt{(Intercept)} & 2.94 & 2.94 & 2.94\\
+\cline{2-6}
+ &  & \texttt{elix\_score} & 0 & 0 & -5.00\\
+\cline{3-6}
+ &  & \texttt{bs\_type[rygb]} & 0 & 0 & 4.00\\
+\cline{3-6}
+ & \multirow{-3}{*}{\centering\arraybackslash $\bm\phi_1$} & \texttt{insulin} & 0 & 0 & -3.00\\
+\cline{2-6}
+\multirow{-8}{*}{\centering\arraybackslash Post-Surgery A1c} & $\tau^2_5$ & \texttt{---} & $2.5 \times 10^{-2}$ & $2.5 \times 10^{-2}$ & $2.5 \times 10^{-2}$\\
+\cline{1-6}
+ &  & \texttt{(Intercept)} & -4.18 & -3.66 & -9.21\\
+\cline{3-6}
+ &  & \texttt{elix\_score} & 1.20 & 0.25 & 0\\
+\cline{3-6}
+ &  & \texttt{surgery} & -0.36 & -0.36 & 0\\
+\cline{3-6}
+ &  & \texttt{surgery:elix\_score} & 0 & $1 \times 10^{-1}$ & 0\\
+\cline{3-6}
+ &  & \texttt{bmi} & 0 & 0 & 0.10\\
+\cline{3-6}
+\multirow{-6}{*}{\centering\arraybackslash Outcome} & \multirow{-6}{*}{\centering\arraybackslash $\bm\omega$} & \texttt{hgba1c} & 0 & 0 & 0.18\\
+\cline{1-6}
+ &  & \texttt{(Intercept)} & -2.44 & -2.44 & -1.10\\
+\cline{3-6}
+ &  & \texttt{elix\_score} & 0.80 & 0.50 & 0.60\\
+\cline{3-6}
+ &  & \texttt{site} & 0.50 & 0.25 & -0.55\\
+\cline{3-6}
+ &  & \texttt{smoking\_status[former]} & -0.50 & -0.50 & 0\\
+\cline{3-6}
+ &  & \texttt{smoking\_status[current]} & -1.00 & -1.00 & 0\\
+\cline{3-6}
+\multirow{-6}{*}{\centering\arraybackslash Missing Eligibility} & \multirow{-6}{*}{\centering\arraybackslash $\bm\rho$} & \texttt{insulin} & 0 & 0 & 0.50\\
+\hline
+\end{tabular}\caption{Coefficients for simulation settings, summarized for each missing data mechanism in Figure \ref{fig:missing_DAGs}. Component variables comprising $\bm L_{k0}$ include \texttt{gender}, \texttt{race}, \texttt{insulin} (usage), \texttt{smoking\_status} and \texttt{elix\_score} (comorbidities). Component variables comprising $\bm L_{kt}$ include \texttt{bmi}, \texttt{hgba1c}. Treatment variables are denoted by \texttt{surgery} ($A_{kt}$) and \texttt{bs\_type} ($A'_{kt}$)}
+\end{table}\label{table:sim_coef}

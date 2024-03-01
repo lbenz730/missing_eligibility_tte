@@ -1,0 +1,17 @@
+outcome,weights,estimate,exp_est,effect,file_id,bmi_lookback,a1c_lookback
+Any Microvascular Event,Unweighted,-0.9966940284293679,0.3690976527222206,Per-Protocol,13,6,1
+Any Microvascular Event,W^A,-0.7732241191301883,0.4615226629334603,Per-Protocol,13,6,1
+Any Microvascular Event,W^A x W^N,-0.769855265120122,0.46308008730192785,Per-Protocol,13,6,1
+Any Microvascular Event,W^A x W^N x W^R,-0.7634303760708843,0.4660649037735228,Per-Protocol,13,6,1
+Retinopathy,Unweighted,-0.7605572447870657,0.4674058949281863,Per-Protocol,13,6,1
+Retinopathy,W^A,-0.641628025158127,0.5264346771172563,Per-Protocol,13,6,1
+Retinopathy,W^A x W^N,-0.6399486834047616,0.5273194835892414,Per-Protocol,13,6,1
+Retinopathy,W^A x W^N x W^R,-0.6623756532744398,0.5156249322565484,Per-Protocol,13,6,1
+Neuropathy,Unweighted,-0.9582491492159768,0.3835638615023273,Per-Protocol,13,6,1
+Neuropathy,W^A,-0.7001722097913019,0.49649979430287694,Per-Protocol,13,6,1
+Neuropathy,W^A x W^N,-0.6972612677641328,0.49794718202942884,Per-Protocol,13,6,1
+Neuropathy,W^A x W^N x W^R,-0.681306750146196,0.5059554028969618,Per-Protocol,13,6,1
+Nephropathy,Unweighted,-1.4845358280807632,0.22660750110702352,Per-Protocol,13,6,1
+Nephropathy,W^A,-1.1949442748219754,0.30272082288387975,Per-Protocol,13,6,1
+Nephropathy,W^A x W^N,-1.1875436174293528,0.30496946643679884,Per-Protocol,13,6,1
+Nephropathy,W^A x W^N x W^R,-1.1831913092028694,0.30629968020475373,Per-Protocol,13,6,1

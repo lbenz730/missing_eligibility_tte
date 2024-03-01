@@ -1,0 +1,13 @@
+sim_id,study_design,missingness
+1,(1) RYGB vs. VSG,(1) M-Bias
+2,(1) RYGB vs. VSG,(2) Treatment Heterogeneity
+3,(1) RYGB vs. VSG,(3) M-Bias w/ Mediator
+4,(1) RYGB vs. VSG,(4) MNAR
+5,(2) Surgery vs. No Surgery,(1) M-Bias
+6,(2) Surgery vs. No Surgery,(2) Treatment Heterogeneity
+7,(2) Surgery vs. No Surgery,(3) M-Bias w/ Mediator
+8,(2) Surgery vs. No Surgery,(4) MNAR
+9,(3) Surgery vs. No Surgery (Diabetic),(1) M-Bias
+10,(3) Surgery vs. No Surgery (Diabetic),(2) Treatment Heterogeneity
+11,(3) Surgery vs. No Surgery (Diabetic),(3) M-Bias w/ Mediator
+12,(3) Surgery vs. No Surgery (Diabetic),(4) MNAR
