@@ -5,8 +5,8 @@ Code for analysis/simulations related to missing eligibility data in electronic 
 
 ### Data (`scripts/data`)
 
-* __build_complete_case_T2DM_population.R__: Build dataset which will define the notion of a complete case population for simulations (July 2023). This differs from previous work because it is focused on a single trial to start, in a TD2M+ population.
-* __clean_weights.R__: Cleans weights for all measures (not just those continuously enrolled in 2011)
+* __build_complete_case_T2DM_population.R__: Build dataset which will define the notion of a complete case population for simulations.
+* __clean_weights.R__: Cleans weights for all measures. 
 * __microvascular_dataset.R__: Creates dataset for replicating (O'Brien, 2018)
 * __microvascular_dataset_tte.R__: Creates datasets necessary for replicating (O'Brien, 2018) in TTE format
 * __save_parquet.R__: Script to save out some of the larger .sas7bdat files in .parquet format for fast reading
