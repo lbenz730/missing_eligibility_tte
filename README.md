@@ -68,7 +68,7 @@ Figures saved out from various analyses
 * __missing_data_sims.sh__: Job file for missing data simulations
 * __microvascular_pp.sh__: Run analysis for target trial emulation for microvascular outcomes (PP)
 * __microvascular_itt.sh__: Run analysis for target trial emulation for microvascular outcomes (ITT)
-* __boot_microvasular_itt.sh_: Compute boostrapped variance over full grid for 100 replicates of ITT
+* __boot_microvasular_itt.sh__: Compute boostrapped variance over full grid for 100 replicates of ITT
 * __boot_final_itt.sh__: Compute boostrapped variance for final choice of lookbacks for 1000 replicates of ITT
 * __boot_final_pp.sh__: Compute boostrapped variance for final choice of lookbacks for 1000 replicates of PP
 * __data_prep_bootsrap_variance_sims.sh__: Data prep for bootstrap variance simulations
