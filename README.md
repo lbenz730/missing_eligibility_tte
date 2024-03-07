@@ -54,6 +54,7 @@ Simulations based on missing data in the eligibility criteria
 Due to privacy concerns, the raw/derived datasets can not be stored locally or in GitHub. 
 
 * __simulations/__: Folder of simulation inputs and outputs
+* __microvascular_results/__: Results for effect of bariatric surgery on microvascular outcomes from sensitivity analysis.
 
 
 ## Figures (`figures/`)
