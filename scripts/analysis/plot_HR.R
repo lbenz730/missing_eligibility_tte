@@ -74,7 +74,7 @@ p1 <-
   labs(x = 'Blood Glucose Labs Lookback Time (Months)',
        y = expression(paste('Estimated Discrete Hazard Ratio (', e^hat(psi)[ITT], ')')),
        color = 'Inverse Probability Weights',
-       title = 'Intent-To-Treat Effect') + 
+       title = 'Intention-To-Treat Effect') + 
   theme(strip.text.y = element_text(size = 14),
         strip.text.x = element_text(size = 16),
         panel.spacing=unit(1,"lines"),
@@ -143,8 +143,8 @@ df_results %>%
   left_join(
     bind_rows(df_itt, df_pp) %>% 
       group_by(outcome, effect) %>% 
-      summarise('lower' = quantile(exp(estimate), 0.025),
-                'upper' = quantile(exp(estimate), 0.975))
+      summarise('lower' = exp(mean(estimate, na.rm = T) + qnorm(0.025) * sd(estimate, na.rm = T)),
+                'upper' = exp(mean(estimate, na.rm = T) + qnorm(0.975) * sd(estimate, na.rm = T)))
   ) %>% 
   mutate('text' = paste0(sprintf('%0.3f', hr), ' (', sprintf('%0.3f', lower), ', ', sprintf('%0.3f', upper), ')')) %>% 
   select(outcome, effect, text) %>% 
