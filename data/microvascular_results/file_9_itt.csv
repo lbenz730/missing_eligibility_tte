@@ -1,13 +1,13 @@
 outcome,weights,estimate,exp_est,effect,file_id,bmi_lookback,a1c_lookback
 Any Microvascular Event,Unweighted,-1.0439459221627967,0.3520627253779539,Intent-To-Treat,9,3,6
-Any Microvascular Event,W^A,-0.8160495214412427,0.44217501159384504,Intent-To-Treat,9,3,6
-Any Microvascular Event,W^A x W^R,-0.7735755479933433,0.4613604990449098,Intent-To-Treat,9,3,6
+Any Microvascular Event,W^A,-0.8591734007914704,0.4235120123660983,Intent-To-Treat,9,3,6
+Any Microvascular Event,W^A x W^R,-0.8229769904909396,0.4391224433800662,Intent-To-Treat,9,3,6
 Retinopathy,Unweighted,-0.7875064341168496,0.45497789932778765,Intent-To-Treat,9,3,6
-Retinopathy,W^A,-0.6662835580929691,0.5136138512152633,Intent-To-Treat,9,3,6
-Retinopathy,W^A x W^R,-0.649275393063049,0.5224241918368001,Intent-To-Treat,9,3,6
+Retinopathy,W^A,-0.7008851878283489,0.49614592701893173,Intent-To-Treat,9,3,6
+Retinopathy,W^A x W^R,-0.6909027965480696,0.5011234522634936,Intent-To-Treat,9,3,6
 Neuropathy,Unweighted,-1.0223961459375257,0.3597319364264634,Intent-To-Treat,9,3,6
-Neuropathy,W^A,-0.7759922459780668,0.46024687624362953,Intent-To-Treat,9,3,6
-Neuropathy,W^A x W^R,-0.7426914137037315,0.475831531078193,Intent-To-Treat,9,3,6
+Neuropathy,W^A,-0.846939360660933,0.42872509885499027,Intent-To-Treat,9,3,6
+Neuropathy,W^A x W^R,-0.807642528194914,0.4459080437312267,Intent-To-Treat,9,3,6
 Nephropathy,Unweighted,-1.4916145906862823,0.22500906455315928,Intent-To-Treat,9,3,6
-Nephropathy,W^A,-1.1568806516969623,0.3144655802186389,Intent-To-Treat,9,3,6
-Nephropathy,W^A x W^R,-1.078316388358136,0.3401677541955973,Intent-To-Treat,9,3,6
+Nephropathy,W^A,-1.2051347274316306,0.29965162549967633,Intent-To-Treat,9,3,6
+Nephropathy,W^A x W^R,-1.1233288053861088,0.32519547842538987,Intent-To-Treat,9,3,6
