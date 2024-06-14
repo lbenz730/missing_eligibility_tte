@@ -170,7 +170,7 @@ build_trial <- function(trial_id) {
   ### Most recent Smoking Status
   df_smoking <- 
     smoking %>% 
-    filter(contact_date <= study_start) %>% 
+    filter(contact_date <= trial_start) %>% 
     arrange(desc(contact_date)) %>% 
     group_by(subject_id)  %>% 
     slice(1) %>% 
@@ -179,11 +179,12 @@ build_trial <- function(trial_id) {
   ### Most Recent Kidney Labs
   df_eGFR <- 
     df_kidney %>% 
-    filter(lab_date <= study_start) %>% 
+    filter(lab_date <= trial_start) %>% 
     arrange(desc(lab_date)) %>% 
     group_by(subject_id) %>% 
     slice(1) %>% 
     ungroup() %>% 
+    mutate('scr' = pmax(0.1, scr)) %>% 
     rename('baseline_scr' = scr,
            'baseline_eGFR' = eGFR)
   
