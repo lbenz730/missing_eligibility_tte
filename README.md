@@ -1,7 +1,7 @@
 # Missing Eligibity Data in Target Trial Emulation
 Code for analysis/simulations related to missing eligibility data in electronic health record based observational studies using target trial emulation. For more information, see our manuscript:
 
-Benz, L., Mukherjee, R., Dahabreh, I., Wang, R., Arterburn, D., Fischer, H., Lee, C., Shortreed, S., and Hauense, S. "Adjusting for Selection Bias Due to Missing Eligibility Criteria in Emulated Target Trials." _Under Review_ , 2024. [(Pre-Print)](https://arxiv.org/abs/2406.16830)
+Benz, L., Mukherjee, R., Wang, R., Arterburn, D., Fischer, H., Lee, C., Shortreed, S., and Hauense, S. "Adjusting for Selection Bias Due to Missing Eligibility Criteria in Emulated Target Trials." _Under Review_ , 2024. [(Pre-Print)](https://arxiv.org/abs/2406.16830)
 
 ## R Scripts (`scripts/`)
 
