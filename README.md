@@ -3,7 +3,10 @@ Code for analysis/simulations related to missing eligibility data in electronic 
 
 Benz, L., Mukherjee, R., Wang, R., Arterburn, D., Fischer, H., Lee, C., Shortreed, S., and Haneuse, S. "Adjusting for Selection Bias Due to Missing Eligibility Criteria in Emulated Target Trials." _American Journal of Epidemiology_ , 2024.  ([Link](https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwae471/7932839), [Pre-Print](https://arxiv.org/abs/2406.16830))
 
-
+This work has been presented at 
+* SER (June, 2025) ([Poster](https://lukebenz.com/slides/SER_2025_Poster.pdf))
+* ENAR (March, 2025) ([Slides](https://lukebenz.com/slides/enar_2025.pdf))
+* JSM (August, 2024) ([Slides](https://lukebenz.com/slides/jsm_2024.pdf))
 
 ## R Scripts (`scripts/`)
 
